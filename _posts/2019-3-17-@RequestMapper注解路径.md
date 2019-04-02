@@ -1,6 +1,6 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      ‘@RequestMapping’ 				# 标题 
+title:      注解‘@RequestMapping’ 				# 标题 
 subtitle:   使用@RequestMapping路径带{id}                    #副标题
 date:       2019-3-17			# 时间
 author:     czkuo 						# 作者
