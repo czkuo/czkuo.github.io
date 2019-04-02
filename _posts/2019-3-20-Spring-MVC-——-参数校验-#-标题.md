@@ -33,6 +33,7 @@ Spring MVC 的校验可以通过 hibernate-validator 框架来进行校验的，
 ```
 
 > 例如这样
+
 ```
 <bean class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" id="validator" />
 <bean class="org.springframework.validation.beanvalidation.MethodValidationPostProcessor">
@@ -40,10 +41,9 @@ Spring MVC 的校验可以通过 hibernate-validator 框架来进行校验的，
 </bean> 
 <mvc:annotation-driven validator="validator"/>
 
-```
 *校验规则注解*
+```
 ![**校验规则注解**](https://czkuo.github.io/postimages/clipboard.png)
-
 ###    有两种校验方式 1.实体类校验 2.rest中单个参数校验 
 
 1. <font color="red">实体类校验</font>               
@@ -53,6 +53,3 @@ Spring MVC 的校验可以通过 hibernate-validator 框架来进行校验的，
 
  在处理方法的实体参数前标注<font color="red">@Validated</font> ，并且后面紧跟一个Errors类型的参数
 
-*rest例子*
-
-![rest例子](E:\gitblog\czkuo.github.io\postimages\201904022.png)
