@@ -1,9 +1,9 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      注解‘@RequestMapping’ 				# 标题 
-subtitle:   使用@RequestMapping路径带{id}                    #副标题
-date:       2019-3-17			# 时间
-author:     czkuo 						# 作者
+title:      注解RequestMapper请求后台路径				# 标题 
+subtitle:  注解RequestMapper请求后台方式不常用记录一下	                    #副标题
+date:       2019-03-21 				# 时间
+author:     czkuo					# 作者
 header-img: img/post-bg-2015.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
