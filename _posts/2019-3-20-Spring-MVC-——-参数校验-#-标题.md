@@ -58,7 +58,7 @@ Spring MVC 的校验可以通过 hibernate-validator 框架来进行校验的，
 
 ![rest例子](https://czkuo.github.io/postimages/201904022.png)
 
- ####   &nbsp;&nbsp;&nbsp;&nbsp; @Validated和@Valid的区别
+####  &nbsp;&nbsp;&nbsp;&nbsp; @Validated和@Valid的区别
 
 1. @Valid：使用Hibernate的校验机制，不支持分组校验
 2. @Validated：使用Spring的校验机制，支持分组校验
