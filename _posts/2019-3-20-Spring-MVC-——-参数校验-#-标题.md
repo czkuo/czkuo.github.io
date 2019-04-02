@@ -42,7 +42,7 @@ Spring MVC 的校验可以通过 hibernate-validator 框架来进行校验的，
 
 ```
 
-![**校验规则注解**](E:\gitblog\czkuo.github.io\postimages\clipboard.png)
+![**校验规则注解**](https://github.com/czkuo/czkuo.github.io/blob/master/postimages/clipboard.png)
 
 ###    有两种校验方式 1.实体类校验 2.rest中单个参数校验 
 
