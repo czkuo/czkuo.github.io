@@ -7,7 +7,7 @@ description: "Every failure is leading towards success."
 keyword: "BY, BY Blog, 小闹斧的博客, czkuo, chenzhongkuo, java, vue, js,iview"
 url: "http://czkuo.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/czkuo/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/czkuo/czkuo.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
