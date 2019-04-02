@@ -40,10 +40,11 @@ Spring MVC 的校验可以通过 hibernate-validator 框架来进行校验的，
     <property name="validator" ref="validator" />
 </bean> 
 <mvc:annotation-driven validator="validator"/>
-
-*校验规则注解*
 ```
+*校验规则注解*
+
 ![**校验规则注解**](https://czkuo.github.io/postimages/clipboard.png)
+
 ###    有两种校验方式 1.实体类校验 2.rest中单个参数校验 
 
 1. <font color="red">实体类校验</font>               
