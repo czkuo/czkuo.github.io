@@ -1,7 +1,7 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      czk的第一篇博客 				# 标题 
-subtitle:   Hello World, Hello Blog #副标题
+title:      jekyll博客模板 				# 标题 
+subtitle:   Hello World, Hello Blog                    #副标题
 date:       2017-02-06 				# 时间
 author:     BY 						# 作者
 header-img: img/post-bg-2015.jpg 	#这篇文章标题背景图片
