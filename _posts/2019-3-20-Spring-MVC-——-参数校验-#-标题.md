@@ -33,13 +33,13 @@ Spring MVC 的校验可以通过 hibernate-validator 框架来进行校验的，
 ```
 
 > 例如这样
+
 ```
 <bean class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" id="validator" />
 <bean class="org.springframework.validation.beanvalidation.MethodValidationPostProcessor">
     <property name="validator" ref="validator" />
 </bean> 
 <mvc:annotation-driven validator="validator"/>
-
 ```
 
 ![**校验规则注解**](https://github.com/czkuo/czkuo.github.io/blob/master/postimages/clipboard.png)
