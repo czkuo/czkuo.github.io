@@ -14,7 +14,9 @@ tags:								#标签
 
 ## ssm调用oracle存储过程
 
->> 1.创建简单存储过程：
+###  1.创建简单存储过程：
+
+
 ```
 CREATE OR REPLACE PROCEDURE czk_demo(cid in number,cc out sys_refcursor) IS
 
@@ -28,7 +30,7 @@ END czk_demo;
 
 ###### 返回结果集->sys_refcursor 游标
 
->> 2.xml中：
+###  2.xml中：
 ```
 <select id="selelname" statementType="CALLABLE"
             parameterType="java.util.Map" >
@@ -58,12 +60,13 @@ xml
 ![](https://czkuo.github.io/postimages/201904033.png)
 
 
->> 3.dao中：
+###  3.dao中：
+
 ```
 public String selelname(Map<String,Object> m);
 ```
 
->> 4.rest中：
+###  4.rest中：
 
 ```
   public ResultMsg<String> demo(IndicatorTypes it) {
