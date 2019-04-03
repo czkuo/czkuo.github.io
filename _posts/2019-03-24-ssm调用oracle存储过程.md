@@ -26,7 +26,7 @@ select * from P_INDICATOR_TYPES where id !=cid;
 END czk_demo;
 ```
 
-###### 返回结果集->sys_refcursor
+###### 返回结果集->sys_refcursor 游标
 
 >> 2.xml中：
 ```
