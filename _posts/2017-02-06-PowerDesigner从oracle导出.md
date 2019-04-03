@@ -15,7 +15,7 @@ tags:								#标签
 
 >> PowerDesigner版本为64 16.5
 
-### 1.在PowerDesigner中把数据库表导出来
+### 在PowerDesigner中把数据库表导出来
 
 ​      1).配置odbc数据源    <font color="red" >（*看你的PowerDesigner是64还是32来选择数据源是64还是32）</font>
 
